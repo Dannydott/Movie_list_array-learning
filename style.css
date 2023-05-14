@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #f5f6f0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  margin-top: 200px;
+  background-color: #f6bdbd;
+  height: 500px;
+  padding: 100px 50px 0 50px;
+  border-radius: 4px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+h1 {
+  margin-bottom: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+#addMovie {
+  margin-right: 15px;
+}
+
+#movieInput {
+  width: 200px;
+  height: 25px;
+  border-radius: 4px;
+  border: none;
+  margin-right: 15px;
+  margin-bottom: 20px;
+  padding: 0 5px;
+}
+
+#addButton {
+  padding: 5px 10px;
+  border: none;
+  background-color: #c2d8a5;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.list-item {
+  list-style: none;
+}
+
+.delete-btn {
+  padding: 5px 10px;
+  border: none;
+  background-color: #e54340;
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
